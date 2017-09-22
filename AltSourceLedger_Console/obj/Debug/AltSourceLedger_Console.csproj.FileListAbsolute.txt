@@ -1,0 +1,10 @@
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\AltSourceLedger_Console.exe.config
+c:\projects\AltSourceLedger\AltSourceLedger_Console\obj\Debug\AltSourceLedger_Console.csprojResolveAssemblyReference.cache
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\AltSourceLedger_Console.exe
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\AltSourceLedger_Console.pdb
+c:\projects\AltSourceLedger\AltSourceLedger_Console\obj\Debug\AltSourceLedger_Console.exe
+c:\projects\AltSourceLedger\AltSourceLedger_Console\obj\Debug\AltSourceLedger_Console.pdb
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\AltSourceLedger_Objects.dll
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\AltSourceLedger_Objects.pdb
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\Newtonsoft.Json.dll
+c:\projects\AltSourceLedger\AltSourceLedger_Console\bin\Debug\Newtonsoft.Json.xml
