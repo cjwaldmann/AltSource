@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="page">
+        <div class="headermargin"></div>
+        <div class="header">
+            <div class="title">
+                <span style="float:right; margin-top:10px;margin-right:10px; ">
+                    
+                </span>
+
+                <span style="float:left; margin-left:10px;margin-right:10px;">
+                    <img src="https://www.altsrc.net/Content/Images/header-logo.png" alt=AltSource" />
+
+
+                </span>
+                <span style="float:left; margin-left:10px;margin-right:10px;">
+                    <h1 style="margin-top: 40px">
+                        AltSource Ledger
+                    </h1>
+                </span>
+                <br />
+            </div>
+            <div class="clear hideSkiplink">
+                
+            </div>
+
+        </div>
+        <div class="main">
+            @RenderBody()
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <span style="color:#fff;">This system was created by chris Waldmann as a sample for AltSource.</span>
+</div>
+    
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
