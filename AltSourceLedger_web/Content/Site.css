@@ -1,0 +1,814 @@
+﻿
+/*Kendo bootstrap overrides*/
+.k-primary{
+ background-color: #18355f ;
+ color: #fff !important;
+}
+
+
+.k-primary .k-icon{
+ color: #fff;
+}
+
+.k-multiselect .k-button
+{
+    background-color: #18355f ;
+    color: #fff !important;
+}
+
+.k-multiselect .k-button .k-icon
+{
+    color: #fff !important;
+}
+
+.k-state-selected.k-draghandle:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list > .k-state-highlight, .k-list > .k-state-selected, .k-marquee-color, .k-panel > .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-state-selected.k-today, .k-state-selected, .k-state-selected:link, .k-state-selected:visited
+{
+    background-color: #18355f ;
+    color: #fff !important;
+}
+
+.k-dropdown {
+    width: auto;
+}
+
+/* Bootstrap Overrides*/
+
+
+
+.btn-primary {
+    background-color: #18355f !important;
+    border-color: #18355f !important;
+}
+
+.modalBackground
+{
+background-color: Gray;
+filter: alpha(opacity=80);
+opacity: 0.8;
+z-index: 10000;
+}
+
+.boxing{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.jumbotron {
+    padding: 5px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 3em;
+}
+/* DEFAULTS
+----------------------------------------------------------*/
+
+.full-width {
+    width: 100%;
+}
+
+.auto-width {
+    width: auto;
+}
+
+input.w300 {
+    width: 300px;
+}
+
+body   
+{
+    background: #666666;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+
+a:link, a:visited
+{
+    color: #18355f;
+    font-weight: bold;
+}
+
+a:hover
+{
+    color: #18355f;
+    text-decoration: underline;
+}
+
+a:active
+{
+    color: #18355f;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.welcome {
+    color: #fff;
+}
+a.welcome{
+    color: #fff;
+    text-decoration: none;
+}
+a.welcome:visited{
+    color: #fff;
+}
+a.welcome:hover{
+    color: #fff;
+}
+
+.page
+{    
+    background: none repeat scroll 0% 0% rgb(256, 256, 256);      
+    width:98%;
+    margin-left: auto;       
+    margin-right: auto;       
+     
+    clear: both;
+    /*box-shadow: 2px 2px 8px rgb(170, 170, 170);
+    border-radius: 8px 8px 8px 8px;*/  
+    
+}
+
+.header
+{
+    position: fixed;
+    top: 0px;
+    margin-left: auto;       
+    margin-right: auto; 
+    width: 98%;
+    background-color: #18355f;
+    border-bottom: 1px solid #18355f;
+    box-shadow: 0px 2px 6px -3px rgba(0,0,0,0.75);
+    height: 140px;
+    z-index: 99;
+}
+
+.headermargin
+{
+    position: relative;
+    height: 80px;
+}
+
+.boxing
+{
+ 
+	background: #fff;    
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 8px;
+	border-radius: 2px;
+	clear: both;
+	box-shadow: 2px 2px 8px #aaa;
+}
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 75px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+#questionnaire {min-width:800px;  }
+
+
+
+.highlight
+{
+	color: #000;
+	background-color: Yellow;
+	font-size: 10px;
+}
+
+
+
+
+.error
+{
+	color: White;
+	background-color: Red;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+}
+
+.sectionHeading
+{      
+    margin-top:10px;
+    padding:5px;
+    border: solid 1px #cbcbcb;
+    background-color: #000;
+    color:#fff;
+    font-weight:bold;
+
+}
+
+.confirmationHeading
+{      
+    margin-top:10px;
+    padding:5px;
+    border: solid 1px #cbcbcb;
+    background-color: Green;
+    color:#fff;
+    font-weight:bold;
+    clear:left;
+}
+
+.sectionHeadingNoBackground
+{      
+    margin-top:10px;
+    padding:5px;
+    border: solid 1px #cbcbcb;
+    color:#000;
+    clear:left;
+
+}
+
+
+
+.section { clear:both;   }
+
+.sectionTable { background-color:#fff;border-collapse:collapse; border :solid 1px #cbcbcb; color: #000;margin-top:10px;width:100%; }
+/*
+.sectionTable:after {
+  content: "."; 
+  display: block;
+  height: 0; 
+  overflow:hidden;
+   clear: both; 
+  visibility:hidden; 
+}*/
+
+.sectionTable tr { background-color:#fff;border-collapse:collapse; border :solid 1px #cbcbcb; color: #000;margin-top:10px;padding:5px; vertical-align:top;   }
+.sectionTable td { padding:5px;border:1px solid #000; vertical-align:top; }
+.sectionTable li { font-size: 12px;}
+
+.tableHeaderCentered {background-color:#ADD8E6; text-align:center; font-weight:bold;  }
+.tableHeaderLeft {background-color:#ADD8E6; text-align:left; font-weight:bold;}
+
+.guidanceAndExamples { background-color: #CDCDCD;  }
+
+.tdLabel {padding:5px;border:1px solid #000000; min-width:35%; width:40%; }
+.tdValue {padding:5px;border:1px solid #000000; min-width:65%; width:60% }
+.tdValueRight {padding:5px;border:1px solid #000000; min-width:35%; width:40%; text-align: right }
+
+
+/* added by Frey */
+
+.tableHeaderLeftLightBk {background-color:#bfdce6; text-align:left; font-weight:bold;}
+.tdValueNoBorder {padding:5px; border:0px none;min-width:65%; width:60% }
+.tdMainCheckBox{background-color:#DAEEF3; text-align:left; font-weight:bold; width:100%}
+.otherTextBox{
+    width:170px;
+  
+ }
+
+.otherTextBoxSmall{
+    width:150px;
+ }
+ 
+
+.funcGrpTextBox {
+   width:170px;
+  }
+  
+ .hwExportType
+ {
+    padding-left:10px;
+ }
+
+/* End of Addition */
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+
+div.hideSkiplink
+{
+    background-color: White;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 700px;
+    border: 1px solid #f3ddde;
+    height:25px;
+    padding-left: 5px;
+}
+
+
+
+textarea.textEntry 
+{
+    width: 700px;
+    border: 1px solid #f3ddde;
+    height:100px;
+    padding-left: 5px;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+}
+.radiostyle {
+    width: 100px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*SELECT
+{
+    font-family: Arial;
+    font-size:10px;
+    height: 19px;
+}
+
+SELECT.regular
+{
+    font-size:12px;
+    width:500px;
+}*/
+
+/* Main Grid Style */
+
+.tablestyle 
+{
+    font-family: Arial;
+    font-size: small;
+    border: solid 1px #7f7f7f;
+
+}
+
+.altrowstyle 
+{
+    background-color: #fffcfc;
+}
+
+.headerstyle th 
+{
+    background: url(../Images/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: left;
+    vertical-align: top;
+}  
+
+.headerstyle th a
+{
+    font-weight:bold;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding-right: 10px;
+}    
+
+.rowstyle .sortaltrow, .altrowstyle .sortaltrow 
+{
+    background-color: #ffe3e3;
+}
+
+.rowstyle .sortrow, .altrowstyle .sortrow 
+{
+    background-color: #ffc9c9;
+}
+
+.rowstyle td, .altrowstyle td 
+{
+    padding: 4px 10px 4px 10px;
+    border-right: solid 1px #cbcbcb;
+    vertical-align: top;
+}
+
+.headerstyle .sortascheader 
+{
+    background: url(../Images/sprite.png) repeat-x 0px -100px;
+}
+
+.headerstyle .sortascheader a 
+{
+    background: url(../Images/dt-arrow-up.png) no-repeat right 50%;    
+} 
+
+.headerstyle .sortdescheader 
+{
+    background: url(../Images/sprite.png) repeat-x 0px -100px;
+}   
+
+.headerstyle .sortdescheader a 
+{
+    background: url(../Images/dt-arrow-dn.png) no-repeat right 50%;
+} 
+
+
+
+
+
+
+
+
+#loginArea
+{
+    width:600px;
+	background: #f9f9f9;    
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	padding: 4px;
+	border-radius: 8px;
+	clear: both;
+	box-shadow: 2px 2px 8px #aaa;
+}
+
+.loginFields
+{
+    width:250px;
+}
+
+.AddButton
+  {
+      width:60px;
+  }
+
+.warning
+{
+    color:Red;
+    font-weight: bold;
+}
+
+img.DeleteAnswer
+{
+  cursor: pointer;
+}
+
+img.DeleteAnswer:hover
+{
+    cursor: hand;
+}
+
+.hide
+{
+    display:none;
+}
+
+
+
+
+
+fieldLabel
+{
+    font-size:12px;
+    text-align: right;
+    width: 250px;
+    vertical-align:top;
+    color: #666666;
+}
+
+.fieldLabelLj
+{
+    font-size:12px;
+    text-align: left;
+    width: 300px;
+    vertical-align:top;
+    color: #666666;
+}
+
+.fieldValue
+{
+    font-size:13px;
+    text-align: left;
+    width: 700px;
+}
+
+.fieldLabelTwoCol
+{
+    font-size:12px;
+    text-align: left;
+    width: 250px;
+    vertical-align:top;
+    color: Navy;
+}
+
+.fieldValueTwoCol
+{
+    font-size:13px;
+    text-align: left;
+    width: 750px;
+    color: navy;
+}
+
+.fieldValueIndented
+{
+    font-size:13px;
+    text-align: left;
+    padding-left: 20px;
+    width: 700px;
+}
+
+.fieldValueColSpanTwo
+{
+    font-size:14px;
+    text-align: left;
+    width: 300px;
+}
+
+.fieldValueIndentedColSpanTwo
+{
+    font-size:14px;
+    text-align: left;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.fieldValueRadio
+{
+    font-size:14px;
+    text-align: left;
+    width: 700px;
+    padding-left: 25px;
+}
+
+.fieldDescription
+{
+    font-size:11px;
+    text-align: left;
+    padding-left:40px;
+    color: #8b8878;
+}
+
+
+.required
+{
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+}
+
+.help-icon{
+    background-color: #ffff80 !important;
+}
+
+.selectedRow{
+    background-color: #ffd1b3;
+}
+
+@media print{
+    .print{
+        visibility: visible;
+        display: block;
+    }
+    .noprint{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen{
+    .print{
+        visibility: hidden;
+        display: none;
+    }
+    .noprint {
+        visibility: visible;
+        display: block;
+    }
+}
